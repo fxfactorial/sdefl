@@ -1,12 +1,3 @@
-/* ===============================================================
- *                              SDEFL
- * ===============================================================
- * public domain - no warranty implied; use at your own risk
- * References:
-    https://bitbucket.org/rmitton/tigr/src/be3832bee7fb2f274fe5823e38f8ec7fa94e0ce9/src/tigr_inflate.c?at=default&fileviewer=file-view-default
-    https://github.com/github/putty/blob/49fb598b0e78d09d6a2a42679ee0649df482090e/sshzlib.c
-    https://www.ietf.org/rfc/rfc1951.txt
-*/
 #ifndef SDEFL_H_INCLUDED
 #define SDEFL_H_INCLUDED
 
