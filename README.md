@@ -8,13 +8,13 @@ this library implements the Deflate standard some limitations including a small
 match window of only 32kb apply. So don't expect comparable speed or compression
 ratio to some of the newer algorithms.
 
-##Features
+## Features
 - Portable single header and source file duo written in ANSI C (ISO C90)
 - Small ~300 implementation (Deflate: 170 Loc, Inflate: 150 Loc)
 - 8 configurable compression level
 - Dual license with either MIT or public domain
 
-##Usage
+## Usage
 For deflating add sdefl(.h+.c) into your project and include `sdefl.h`. To actually
 compress memory first call `sdefl_bound` to calculate the maximum number of compressed
 output and allocate an compress output memory buffer and pass it along with your
@@ -26,7 +26,7 @@ decompress a previously compressed block of memory call `sinflate`. Pass
 your compressed block along with its size and an allocated output buffer
 with size of the uncompressed block.
 
-##License
+## License
 ```
 ------------------------------------------------------------------------------
 This software is available under 2 licenses -- choose whichever you prefer.
