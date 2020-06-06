@@ -10,7 +10,7 @@ ratio to some of the newer algorithms.
 
 ## Features
 - Portable single header and source file duo written in ANSI C (ISO C90)
-- Small ~300 implementation (Deflate: 170 Loc, Inflate: 150 Loc)
+- Small ~300 LoC implementation (Deflate: 170 LoC, Inflate: 150 LoC)
 - 8 configurable compression level
 - Dual license with either MIT or public domain
 
